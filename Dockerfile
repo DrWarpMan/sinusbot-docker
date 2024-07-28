@@ -1,4 +1,4 @@
-FROM sinusbot/docker:1.0.2-discord
+FROM drwarpman/sinusbot-docker:discord
 
 LABEL description="SinusBot - TeamSpeak 3 and Discord music bot."
 LABEL version="1.0.2"

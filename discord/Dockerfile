@@ -1,4 +1,7 @@
-FROM debian:buster-slim
+# We use Debian 12 (Bookworm) as base image, because we need 3.8 or higher for yt-dlp to work.
+# https://wiki.debian.org/Python#Supported_Python_Versions
+# https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#dependencies
+FROM debian:bookworm-slim
 
 LABEL description="SinusBot - Discord only image"
 LABEL version="1.0.2"
